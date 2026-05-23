@@ -1,3 +1,6 @@
+//Write a program to initialize and print all primitive data types in Java.
+
+
 public class Print_primitive{
     public static void main(String []args){
         int a=10;
