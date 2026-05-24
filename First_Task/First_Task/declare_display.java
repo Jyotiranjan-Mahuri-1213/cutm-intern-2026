@@ -1,3 +1,4 @@
+package First_Task;
 /*Write a program to declare variables of different data types and display their values.*/
 
 public class declare_display{
