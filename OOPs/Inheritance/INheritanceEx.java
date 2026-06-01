@@ -1,4 +1,4 @@
-package OOPs.Abstraction.Inheritance;
+package OOPs.Inheritance;
 
 class Sim {
     void connect() {

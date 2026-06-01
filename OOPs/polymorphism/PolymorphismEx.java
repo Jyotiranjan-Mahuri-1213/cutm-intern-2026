@@ -1,4 +1,4 @@
-package OOPs.Abstraction.polymorphism;
+package OOPs.polymorphism;
 
 abstract class Sim {
     abstract void call();
