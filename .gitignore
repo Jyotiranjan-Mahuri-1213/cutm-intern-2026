@@ -1,28 +1,14 @@
-# IntelliJ IDEA
+# IntelliJ
 .idea/
 *.iml
 
 # Java
-*.class
-target/
 out/
+target/
+*.class
 
-# Node.js / React
+# Node.js
 node_modules/
 
-# VS Code
-.vscode/
-
-# Mac OS
-.DS_Store
-
-# Eclipse
-.classpath
-.project
-.settings/
-
-# NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
+# Logs
+*.log
