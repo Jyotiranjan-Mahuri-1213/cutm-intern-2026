@@ -1,0 +1,31 @@
+{
+  "name": "ReactDemmo",
+  "version": "1.0.0",
+  "description": "Hello My First React App",
+  "homepage": "https://github.com/Jyotiranjan-Mahuri-1213/cutm-intern-2026#readme",
+  "bugs": {
+    "url": "https://github.com/Jyotiranjan-Mahuri-1213/cutm-intern-2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jyotiranjan-Mahuri-1213/cutm-intern-2026.git"
+  },
+  "license": "ISC",
+  "author": "ReactDemo",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router": "^7.16.0",
+    "react-router-dom": "^7.16.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
