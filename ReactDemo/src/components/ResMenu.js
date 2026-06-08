@@ -3,7 +3,9 @@ import { useParams } from "react-router";
 // Ensure ResCategory is imported if it's in a separate file
 import ResCategory from "./ResCategory"; 
 
-const ResMenu = () => {
+//const MENU_API =
+  import { MENU_API } from "../utils/constants";
+ const ResMenu = () => {
   const [resData, setResData] = useState(null);
   const [categories, setCategories] = useState([]);
 
@@ -13,7 +15,10 @@ const ResMenu = () => {
   
   async function fetchRestaurentMenu() {
     try {
-      const data = await fetch(Menu_URL);
+  const data = await fetch(
+  "https://corsproxy.io/?" +
+  encodeURIComponent(MENU_API + resId)
+);
       const json = await data.json();
       
       const cardsArray = json?.data?.cards || [];
